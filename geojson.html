@@ -42,7 +42,7 @@
     L.control.scale().addTo(map);
 
     // read GeoJSON data from data/tipot_wgs.geojson
-    var geojsonLayer = new L.GeoJSON.AJAX("data/tipot_wgs.geojson", {onEachFeature:onEachFeature});
+    var geojsonLayer = new L.GeoJSON.AJAX("מרחבילידה.geojson", {onEachFeature:onEachFeature});
 
     // create a text for each GeoJSON marker
     function onEachFeature(feature, layer){
